@@ -1,6 +1,10 @@
 {
-    "template" : {"rowToParse" : "playerEloRowToParse", "pagination" : "playerDetailedEloPagination"},
+    "template" : {
+        "rowToParse" : "playerEloRowToParse",
+        "pagination" : "playerDetailedEloPagination",
+        "sortDeterminants" : "tlpdSortDeterminants"
+        },
     "subjectId" : "sc2ip",
     "title" : "StarCraft 2 International Players",
-    "url" : "tlpd/sc2-international/players/detailed-elo"
+    "url" : "tlpd/players/detailed_elo.php?section=sc2-international&tabulator_order_col=4"
 }

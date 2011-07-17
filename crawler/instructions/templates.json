@@ -120,6 +120,20 @@
 
     },
     "playerDetailedEloPagination" : {
-        "url" : "#tblt-6059-PAGE_NUM-2-DESC"
-    }
+        "url" : "&tabulator_order_desc=1&tabulator_page=PAGE_NUM",
+        "_comment" : "pageKey can be set here to override the master config page key"
+    },
+
+    "_comment" : "What subject collection properties can we sort by? Only numerical columns allowed.",
+    "_comment" : "The default is the first entry in the array",
+    "tlpdSortDeterminants" :
+    [   "currentOverall",
+        "peakOverall",
+        "peakVsTerran",
+        "peakVsZerg",
+        "peakVsProtoss",
+        "currentVsTerran",
+        "currentVsZerg",
+        "currentVsProtoss"
+    ]
 }

@@ -1,6 +1,14 @@
 {
-    "template" : {"rowToParse" : "playerEloRowToParse", "pagination" : "playerDetailedEloPagination"},
+    "_comment" : "each element in the template object will become a property of this config, with the key being used as the property name",
+    "_comment" : "pagination and sortDeterminants are optional. Elements of sortDeterminants must be numerical",
+    "template" : {
+        "rowToParse" : "playerEloRowToParse",
+        "pagination" : "playerDetailedEloPagination",
+        "sortDeterminants" : "tlpdSortDeterminants"
+        },
     "subjectId" : "bkp",
     "title" : "Broodwar Korean Players",
-    "url" : "tlpd/korean/players/detailed-elo"
+    "_comment" : "appends to rootUrl, and prepends pagination url",
+    "url" : "tlpd/players/detailed_elo.php?section=korean&tabulator_order_col=2"
+
 }

@@ -11,13 +11,22 @@
     },
     
     "defaults" : {
+        "_comment" : "Can be overridden in <instruction>.rootUrl",
         "rootUrl" : "http://www.teamliquid.net/",
-        "startAtPage" : 1,
+        "_comment" : "Can be overridden in <instruction>.rowsToParse.startAtRow",
         "startAtRow" : 1,
+        "_comment" : "Can be overridden in <instruction>.rowsToParse.maxRows",
         "maxRows" : 99,
-        "maxPages" : 3,
-        "pageKey" : "PAGE_NUM",
+        "_comment" : "Can be overridden in <instruction>.rowsToParse.rowKey",
         "rowKey" : "ROW_NUM",
+        "_comment" : "Can be overridden in <instruction>.pagination.maxPages",
+        "maxPages" : 3,
+        "_comment" : "Can be overridden in <instruction>.pagination.pageKey",
+        "pageKey" : "PAGE_NUM",
+        "_comment" : "Can be overridden in <instruction>.pagination.startAtPage",
+        "startAtPage" : 1,
         "directiveClass" : "xpath"
-    }
+    },
+
+    "log-file" : "debug.log"
 }

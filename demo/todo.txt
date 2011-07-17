@@ -1,2 +1,0 @@
-07/02/2011
-Change config to delimt with = instead of tab for petes sake

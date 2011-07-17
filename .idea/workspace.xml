@@ -22,17 +22,43 @@
     <favorites_list name="metaliquid" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="91" selection-start="297" selection-end="297" vertical-scroll-proportion="0.12099644">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.87355214">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="51" column="42" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.251004">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="metaliquid.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/metaliquid.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="28" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="312" column="16" selection-start="12471" selection-end="12499" vertical-scroll-proportion="-0.26768643">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -46,22 +72,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/config/webparse/templates.json" />
-        <option value="$PROJECT_DIR$/cache/webdata.json" />
-        <option value="$PROJECT_DIR$/app/core/JSON.class.php" />
-        <option value="$PROJECT_DIR$/JSON.class.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/crawler/config.json" />
-        <option value="$PROJECT_DIR$/crawler/data/sc2kplayers.json" />
-        <option value="$PROJECT_DIR$/crawler/instructions/bwplayers.json" />
         <option value="$PROJECT_DIR$/lib/metaliquiddb.php" />
-        <option value="$PROJECT_DIR$/crawler/data/bwplayers.json" />
-        <option value="$PROJECT_DIR$/crawler/run_crawler.php" />
+        <option value="$PROJECT_DIR$/license.txt" />
+        <option value="$PROJECT_DIR$/lib/Logger.class.php" />
+        <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/crawler/config.json" />
+        <option value="$PROJECT_DIR$/crawler/debug.log" />
+        <option value="$PROJECT_DIR$/crawler/instructions/sc2kplayers.json" />
+        <option value="$PROJECT_DIR$/crawler/instructions/sc2iplayers.json" />
         <option value="$PROJECT_DIR$/crawler/instructions/templates.json" />
         <option value="$PROJECT_DIR$/crawler/Crawler.class.php" />
-        <option value="$PROJECT_DIR$/license.txt" />
+        <option value="$PROJECT_DIR$/crawler/instructions/bwplayers.json" />
         <option value="$PROJECT_DIR$/lib/JSON.class.php" />
-        <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/crawler/run_crawler.php" />
+        <option value="$PROJECT_DIR$/crawler/data/bwplayers.json" />
+        <option value="$PROJECT_DIR$/css/metaliquid.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -124,6 +150,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metaliquid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metaliquid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metaliquid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metaliquid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metaliquid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metaliquid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instructions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metaliquid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metaliquid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -162,6 +252,13 @@
       <method>
         <option name="PhingTarget" enabled="false" />
       </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method>
@@ -236,9 +333,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17038691" sideWeight="0.42444822" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4227504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21428572" sideWeight="0.42444822" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17038691" sideWeight="0.56196946" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22916667" sideWeight="0.6706282" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.237691" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20225988" sideWeight="0.99006796" order="2" side_tool="false" content_ui="tabs" x="11" y="231" width="1344" height="265" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -246,7 +344,6 @@
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4227504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -285,72 +382,44 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/crawler/instructions/sc2iplayers.json">
+    <entry file="file://$PROJECT_DIR$/lib/Logger.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="102" selection-start="104" selection-end="104" vertical-scroll-proportion="0.03024911">
+        <state line="63" column="84" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/mysqlresultset.php">
+    <entry file="file://$PROJECT_DIR$/license.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="7" selection-start="1690" selection-end="1690" vertical-scroll-proportion="-2.9341638">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/mysqldatabase.php">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="630" column="5" selection-start="18755" selection-end="18755" vertical-scroll-proportion="0.3950178">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/metaliquiddb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="9" selection-start="255" selection-end="255" vertical-scroll-proportion="0.15124555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/Crawler.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="22" selection-start="75" selection-end="75" vertical-scroll-proportion="0.090747334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/run_crawler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="78" selection-end="78" vertical-scroll-proportion="0.12662943">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="14" selection-start="16" selection-end="16" vertical-scroll-proportion="0.03024911">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/instructions/bwplayers.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="40" selection-start="170" selection-end="170" vertical-scroll-proportion="0.090747334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/instructions/templates.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="148" selection-start="1539" selection-end="1539" vertical-scroll-proportion="1.0528233">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crawler/instructions/sc2kplayers.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="49" selection-start="225" selection-end="225" vertical-scroll-proportion="0.12099644">
+        <state line="4" column="50" selection-start="151" selection-end="171" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/instructions/sc2iplayers.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="50" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/data/sc2iplayers.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="64778" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -362,37 +431,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/data/sc2iplayers.json">
+    <entry file="file://$PROJECT_DIR$/crawler/instructions/templates.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="128" column="8" selection-start="5060" selection-end="5080" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/data/bwplayers.json">
+    <entry file="file://$PROJECT_DIR$/crawler/instructions/bwplayers.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="69" selection-start="295" selection-end="295" vertical-scroll-proportion="0.24199288">
+        <state line="6" column="50" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/license.txt">
+    <entry file="file://$PROJECT_DIR$/crawler/Crawler.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="468" selection-end="468" vertical-scroll-proportion="0.24199288">
+        <state line="84" column="12" selection-start="3345" selection-end="3345" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/JSON.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="42" selection-start="52" selection-end="52" vertical-scroll-proportion="0.06049822">
+        <state line="16" column="39" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
+    <entry file="file://$PROJECT_DIR$/crawler/config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="91" selection-start="297" selection-end="297" vertical-scroll-proportion="0.12099644">
+        <state line="24" column="31" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/run_crawler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="5" selection-start="2906" selection-end="2906" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1310929961624" expanded="true" signature="1157:1253" placeholder="/** * Do not..." />
+            <marker date="1310929961624" expanded="true" signature="1551:1649" placeholder="/** * Load t..." />
+            <marker date="1310929961624" expanded="true" signature="1863:1966" placeholder="/** * The co..." />
+            <marker date="1310929961624" expanded="true" signature="2086:2137" placeholder="/** * Save t..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/data/bwplayers.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/metaliquid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="28" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="42" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.251004">
           <folding />
         </state>
       </provider>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<templates>
-	<getme url="correct.com">
-		<mychild><![CDATA[gotme]]></mychild>
-		<deeper>
-			<deepest url="correct.com"><![CDATA[deepest]]></deepest></deeper></getme></templates>
