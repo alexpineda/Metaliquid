@@ -1,0 +1,6 @@
+{
+    "template" : {"rowToParse" : "playerEloRowToParse", "pagination" : "playerDetailedEloPagination"},
+    "subjectId" : "bkp",
+    "title" : "Broodwar Korean Players",
+    "url" : "tlpd/korean/players/detailed-elo"
+}

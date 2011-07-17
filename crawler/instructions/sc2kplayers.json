@@ -1,0 +1,6 @@
+{
+    "template" : {"rowToParse" : "playerEloRowToParse", "pagination" : "playerDetailedEloPagination"},
+    "subjectId" : "sc2kp",
+    "title" : "StarCraft 2 Korean Players",
+    "url" : "tlpd/sc2-korean/players/detailed-elo"
+}

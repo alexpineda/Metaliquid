@@ -1,0 +1,125 @@
+{
+    "_comment" : "The template name is the key to access the template, eg. playerEloRowToParse",
+    "playerEloRowToParse" : {
+
+        "_comment" : "The table may contain some header rows that you want to skip",
+        "startAtRow" : 2,
+
+        "_comment" : "Each element in the colsToParse array will become a property of the row",
+        "colsToParse" : [
+            {   "id" : "race",
+                "element" : {
+                    "xpath" : ["//table[@id='tblt_table']/tr[ROW_NUM]/td[1]/img"],
+                    "_comment" : "Tells the crawler to access the attribute title instead of the elements text content",
+                    "useAttribute" : "title"
+                }
+            },
+            {   "id" : "name",
+                "element" : {
+                    "xpath" :["//table[@id='tblt_table']/tr[ROW_NUM]/td[1]/a"]
+                }
+            },
+            {   "id" : "nameHref",
+                "element" : {
+                    "xpath" : ["//table[@id='tblt_table']/tr[ROW_NUM]/td[1]/a"],
+                    "useAttribute" : "href"
+                }
+            },
+            {   "id" : "team",
+                "element" :  {
+                    "xpath" : ["//table[@id='tblt_table']/tr[ROW_NUM]/td[2]/a",
+                               "//table[@id='tblt_table']/tr[ROW_NUM]/td[2]"]
+                }
+            },
+            {   "id" : "teamHref",
+                "_comment" : "Sometimes not every row instance will have a particular column property, and sometimes that shouldn't stop the process!",
+                "optional" : true,
+                "element" : {
+                    "xpath" : ["//table[@id='tblt_table']/tr[ROW_NUM]/td[2]/a"],
+                    "useAttribute" : "href"
+                }
+            },
+            {   "id" : "peakOverall",
+                "element" : {
+                    "xpath" : ["//table[@id='tblt_table']/tr[ROW_NUM]/td[4]/a",
+                               "//table[@id='tblt_table']/tr[ROW_NUM]/td[4]"]
+                }
+            },
+            {   "id" : "peakOverallHref",
+                "optional" : true,
+                "element" : {
+                    "xpath" : ["//table[@id='tblt_table']/tr[ROW_NUM]/td[4]/a"],
+                    "useAttribute" : "href"
+                }
+            },
+            {   "id" : "peakVsTerran",
+                "element" :  {
+                    "xpath" : ["//table[@id='tblt_table']/tr[ROW_NUM]/td[6]/a",
+                               "//table[@id='tblt_table']/tr[ROW_NUM]/td[6]"]
+                }
+            },
+            {   "id" : "peakVsTerranHref",
+                "optional" : true,
+                "element" : {
+                    "xpath" : ["//table[@id='tblt_table']/tr[ROW_NUM]/td[6]/a"],
+                    "useAttribute" : "href"
+                }
+            },
+            {   "id" : "peakVsZerg",
+                "element" : {
+                    "xpath" : ["//table[@id='tblt_table']/tr[ROW_NUM]/td[8]/a",
+                               "//table[@id='tblt_table']/tr[ROW_NUM]/td[8]"]
+                }
+            },
+            {   "id" : "peakVsZergHref",
+                "optional" : true,
+                "element" : {
+                    "xpath" : ["//table[@id='tblt_table']/tr[ROW_NUM]/td[8]/a"],
+                    "useAttribute" : "href"
+                }
+            },
+            {   "id" : "peakVsProtoss",
+                "element" : {
+                    "xpath" : ["//table[@id='tblt_table']/tr[ROW_NUM]/td[10]/a",
+                               "//table[@id='tblt_table']/tr[ROW_NUM]/td[10]"]
+                }
+            },
+            {   "id" : "peakVsProtossHref",
+                "optional" : true,
+                "element" : {
+                    "xpath" : ["//table[@id='tblt_table']/tr[ROW_NUM]/td[10]/a"],
+                    "useAttribute" : "href"
+                }
+            },
+            {
+                "id" : "currentOverall",
+                "element" : {
+                    "xpath" : ["//table[@id='tblt_table']/tr[ROW_NUM]/td[3]"]
+                }
+            },
+            {
+                "id" : "currentVsTerran",
+                "element" : {
+                    "xpath" : ["//table[@id='tblt_table']/tr[ROW_NUM]/td[5]/span"]
+                }
+            },
+            {
+                "id" : "currentVsZerg",
+                "element" : {
+                    "xpath" : ["//table[@id='tblt_table']/tr[ROW_NUM]/td[7]/span"]
+                }
+            },
+            {
+                "id" : "currentVsProtoss",
+                "element" : {
+                    "xpath" : ["//table[@id='tblt_table']/tr[ROW_NUM]/td[9]/span"]
+                }
+            }
+
+        ]
+
+    },
+    "playerDetailedEloPagination" : {
+        "url" : "#tblt-6059-PAGE_NUM-2-DESC"
+    }
+}

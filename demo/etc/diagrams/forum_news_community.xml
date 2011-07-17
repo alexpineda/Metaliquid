@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<diagram >
+	
+	<meta template="forum">
+			<id>cn</id>
+			<title>Community News</title>			
+			<url>forum/index.php?show_part=49</url>
+			<subgroup>news</subgroup>
+	</meta>	
+	
+</diagram>
+

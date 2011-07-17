@@ -1,0 +1,23 @@
+{
+    "data" : {
+        "path" : "data/",
+        "expiryTime" : 360
+    },
+    
+    "instructions" : {
+        "path" : "instructions/",
+        "templatesFile" : "templates.json",
+        "templateAttr" : "template"
+    },
+    
+    "defaults" : {
+        "rootUrl" : "http://www.teamliquid.net/",
+        "startAtPage" : 1,
+        "startAtRow" : 1,
+        "maxRows" : 99,
+        "maxPages" : 3,
+        "pageKey" : "PAGE_NUM",
+        "rowKey" : "ROW_NUM",
+        "directiveClass" : "xpath"
+    }
+}

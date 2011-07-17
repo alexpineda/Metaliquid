@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<diagram template="forum" >
+	
+	<definition>
+			<id>tlc</id>
+			<title>TL Community</title>			
+			<subcategory>general</subcategory>
+			<category>
+				<id>ft</id>
+				<title>Forum Threads</title>
+			</category>
+			
+			<url>forum/index.php?show_part=37</url>
+			<pagination>
+				<url>&amp;currentpage=%PAGE%</url>
+				<startatpage>1</startatpage>
+			</pagination>
+			
+			<row_diagram>
+				<column_diagram id="topic" name="Topic">//table[@class='solid']/tbody/tr[%ROW%]/td[2]/a[1]</column_diagram>
+	
+				<column_diagram id="topicstarter" name="Topic Starter">//table[@class='solid']/tbody/tr[%ROW%]/td[3]</column_diagram>
+	
+				<column_diagram id="replies" name="Replies">//table[@class='solid']/tbody/tr[%ROW%]/td[4]</column_diagram>
+	
+				<column_diagram id="views" name="Views">//table[@class='solid']/tbody/tr[%ROW%]/td[5]</column_diagram>
+			</row_diagram>
+	</definition>
+
+			
+	
+	
+
+</diagram>

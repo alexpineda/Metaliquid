@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- any path names must end in forward slash!! -->
+<configuration>
+    <lastupdated>12</lastupdated>
+    <expirydate>11</expirydate> <!-- in seconds -->
+	<baseurl>http://www.teamliquid.net/</baseurl>
+	
+    <path>
+        <work>data/work/</work>
+        <index>data/index/</index>
+        <subject>data/stamped_rolls/</subject>
+    </path>
+
+	<diagram_definitions>
+		<dir>etc/diagrams/</dir>
+		<templatesfile>templates.xml</templatesfile>
+		<template_attr>template</template_attr>
+		
+		
+		<groups>
+			<group id="threads">
+				<title>Forum Threads</title>
+				
+				<subgroup id="news">
+					<title>News</title>
+				</subgroup>				
+				<subgroup id="general">
+					<title>General Forum</title>
+				</subgroup>
+				<subgroup id="sc2">
+					<title>StarCraft 2</title>
+				</subgroup>
+				<subgroup id="bw">
+					<title>Broodwar</title>
+				</subgroup>
+			</group>
+						
+			<group id="pro">
+				<title>Professional StarCraft</title>
+				<subgroup id="pelo">
+					<title>Player Elo</title>
+				</subgroup>
+			</group>
+		</groups>
+		
+		<!--whitelist>bwplayers.xml,sc2kplayers.xml,sc2players.xml</whitelist-->
+		
+    </diagram_definitions>
+	
+	<defaults>
+		<startatpage>1</startatpage>
+		<startatrow>1</startatrow>
+		<maxpages>1</maxpages>
+		<maxrows>99</maxrows>
+		<page_identifier>PAGE_NUM</page_identifier>
+		<row_identifier>%ROW%</row_identifier>
+	</defaults>
+
+
+</configuration>

@@ -1,0 +1,6 @@
+{
+    "template" : {"rowToParse" : "playerEloRowToParse", "pagination" : "playerDetailedEloPagination"},
+    "subjectId" : "sc2ip",
+    "title" : "StarCraft 2 International Players",
+    "url" : "tlpd/sc2-international/players/detailed-elo"
+}

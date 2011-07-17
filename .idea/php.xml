@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpProjectConfiguration">
+    <sdk>
+      <PhpSdkConfig version="5.3.4" home="C:\wamp\bin\php\php5.3.4" />
+    </sdk>
+  </component>
+</project>
+
