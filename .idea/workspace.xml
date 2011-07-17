@@ -25,19 +25,19 @@
     <splitter split-orientation="horizontal" split-proportion="0.87355214">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="63" column="54" selection-start="2493" selection-end="2493" vertical-scroll-proportion="-6.45098">
+                <state line="66" column="16" selection-start="2663" selection-end="2663" vertical-scroll-proportion="0.5582329">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/README">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="65" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.4335155">
+                <state line="29" column="0" selection-start="1593" selection-end="1632" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -59,7 +59,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="312" column="16" selection-start="12450" selection-end="12478" vertical-scroll-proportion="-0.26768643">
+                <state line="313" column="16" selection-start="12526" selection-end="12554" vertical-scroll-proportion="-0.26768643">
                   <folding />
                 </state>
               </provider>
@@ -95,8 +95,8 @@
         <option value="$PROJECT_DIR$/crawler/run_crawler.php" />
         <option value="$PROJECT_DIR$/crawler/data/bwplayers.json" />
         <option value="$PROJECT_DIR$/css/metaliquid.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -494,16 +494,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="54" selection-start="2493" selection-end="2493" vertical-scroll-proportion="-6.45098">
+        <state line="29" column="0" selection-start="1593" selection-end="1632" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="65" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.4335155">
+        <state line="66" column="16" selection-start="2663" selection-end="2663" vertical-scroll-proportion="0.5582329">
           <folding />
         </state>
       </provider>
