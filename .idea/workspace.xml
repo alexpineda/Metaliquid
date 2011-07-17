@@ -25,10 +25,19 @@
     <splitter split-orientation="horizontal" split-proportion="0.87355214">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="51" column="42" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.251004">
+                <state line="63" column="54" selection-start="2493" selection-end="2493" vertical-scroll-proportion="-6.45098">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="14" column="65" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.4335155">
                   <folding />
                 </state>
               </provider>
@@ -50,7 +59,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="312" column="16" selection-start="12471" selection-end="12499" vertical-scroll-proportion="-0.26768643">
+                <state line="312" column="16" selection-start="12450" selection-end="12478" vertical-scroll-proportion="-0.26768643">
                   <folding />
                 </state>
               </provider>
@@ -75,7 +84,6 @@
         <option value="$PROJECT_DIR$/lib/metaliquiddb.php" />
         <option value="$PROJECT_DIR$/license.txt" />
         <option value="$PROJECT_DIR$/lib/Logger.class.php" />
-        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/crawler/config.json" />
         <option value="$PROJECT_DIR$/crawler/debug.log" />
         <option value="$PROJECT_DIR$/crawler/instructions/sc2kplayers.json" />
@@ -88,6 +96,7 @@
         <option value="$PROJECT_DIR$/crawler/data/bwplayers.json" />
         <option value="$PROJECT_DIR$/css/metaliquid.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -382,20 +391,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/Logger.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="84" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/license.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -492,9 +487,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webide.jar!/standardSchemas/html5/xhtml5.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="27" selection-start="268" selection-end="289" vertical-scroll-proportion="-50.387978">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="42" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.251004">
+        <state line="63" column="54" selection-start="2493" selection-end="2493" vertical-scroll-proportion="-6.45098">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="65" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.4335155">
           <folding />
         </state>
       </provider>

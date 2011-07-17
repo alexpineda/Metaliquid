@@ -2,7 +2,8 @@ Hey Stranger.
 
 MetaLiquid is a basic 'crawler' that will grab textual information from local or online xml/html elements and attributes.
 Crawling instructions are written in json, and results are spit out as json as well.
-Original intent: create a tag cloud site with starcraft player elo as the size determinant.
+It's a generic system, however the config and the front end are setup for the specific implementation.
+The original idea was to create a tag cloud site with starcraft player elo as the size determinant, stripped from tl.net tlpd (ahem API?).
 
 Example instructions can be found in crawler/instructions/
 Example output from those instructions can be found in crawler/data
@@ -14,8 +15,10 @@ and have a box come out with details (eg. latest game vod, etc.) and perhaps a w
 Although choosing the player name as an identifier is somewhat problematic as players may change their names (rare as it is however).
 
 TODO:
-For some reason I'm ditching the instruction id, and title attributes and simply storing an array in the output file with the
-rows. Fix this so that in the future perhaps we can use couchdb and tags, and plus its not nice to use filenames.
+Use some sort of database for historical recording.
+Front end:
+Better UI. Have the crawler be able to go deeper and attach more data to a
+a player. Have an 'attachments' box for each player where users can
 
 Note:
 Keep in mind in code and configuration, that row and column aren't necessarily real rows and columns. It's just the
