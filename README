@@ -20,6 +20,8 @@ Front end:
 Better UI. Have the crawler be able to go deeper and attach more data to a
 a player. Have an 'attachments' box for each player where users can draw graffiti, add links, add images.
 Create a streams section tagged sized by viewer count, or thread comment count.
+The client loads all the json files upon load. This is perhaps too slow. There should be a 'header' file that contains
+all meta data about the json files, and the collections can be within the individual collection files.
 
 Note:
 Keep in mind in code and configuration, that row and column aren't necessarily real rows and columns. It's just the

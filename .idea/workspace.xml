@@ -23,19 +23,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="313" column="16" selection-start="12526" selection-end="12554" vertical-scroll-proportion="-0.65384614">
+            <state line="249" column="100" selection-start="9535" selection-end="9535" vertical-scroll-proportion="0.39405942">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Logger.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/Logger.class.php">
+      <file leaf-file-name="robots.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/robots.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="94" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="metaliquid.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/metaliquid.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="205" column="0" selection-start="6456" selection-end="6456" vertical-scroll-proportion="-2.56">
               <folding />
             </state>
           </provider>
@@ -59,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="79" selection-start="1418" selection-end="1418" vertical-scroll-proportion="0.54626334">
+            <state line="23" column="85" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/license.txt" />
         <option value="$PROJECT_DIR$/crawler/config.json" />
         <option value="$PROJECT_DIR$/crawler/debug.log" />
         <option value="$PROJECT_DIR$/crawler/instructions/sc2kplayers.json" />
@@ -117,14 +134,15 @@
         <option value="$PROJECT_DIR$/crawler/instructions/templates.json" />
         <option value="$PROJECT_DIR$/lib/JSON.class.php" />
         <option value="$PROJECT_DIR$/crawler/data/bwplayers.json" />
-        <option value="$PROJECT_DIR$/css/metaliquid.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/crawler/Crawler.class.php" />
         <option value="$PROJECT_DIR$/crawler/run_crawler.php" />
         <option value="$PROJECT_DIR$/lib/Logger.class.php" />
         <option value="$PROJECT_DIR$/crawler/instructions/bwplayers.json" />
         <option value="$PROJECT_DIR$/crawler/instructions/streamers.json" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/metaliquid.css" />
         <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -199,39 +217,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metaliquid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metaliquid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crawler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metaliquid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metaliquid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crawler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="instructions" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -401,11 +387,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/crawler/instructions/templates.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="8" selection-start="5060" selection-end="5080" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/JSON.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="39" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" />
@@ -424,18 +405,6 @@
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webide.jar!/standardSchemas/html5/xhtml5.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="27" selection-start="268" selection-end="289" vertical-scroll-proportion="-50.387978" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/metaliquid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="28" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="313" column="16" selection-start="12526" selection-end="12554" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/Logger.class.php">
@@ -480,6 +449,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="205" column="0" selection-start="6456" selection-end="6456" vertical-scroll-proportion="-2.56">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/metaliquid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="85" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/crawler/run_crawler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="0" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.0">
@@ -487,9 +484,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="79" selection-start="1418" selection-end="1418" vertical-scroll-proportion="0.54626334">
+        <state line="249" column="100" selection-start="9535" selection-end="9535" vertical-scroll-proportion="0.39405942">
           <folding />
         </state>
       </provider>
