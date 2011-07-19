@@ -4,6 +4,7 @@
     "template" : {
         "rowToParse" : "playerEloRowToParse",
         "pagination" : "playerDetailedEloPagination",
+        "_comment" : "Used in this implementations front end. Not required for crawling. What properties can we sort by?",
         "sortDeterminants" : "tlpdSortDeterminants"
         },
     "subjectId" : "bkp",

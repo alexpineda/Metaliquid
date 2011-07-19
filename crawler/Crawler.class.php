@@ -3,7 +3,7 @@
  * @author Alex Pineda <alex@brainyweb.ca>
  * @package MetaLiquid
  */
-namespace MetaLiquid{
+
     class Crawler
     {
         /**
@@ -11,11 +11,11 @@ namespace MetaLiquid{
          */
         private $defaults;
         /**
-         * @var \Logger
+         * @var Logger
          */
         private $logger;
 
-        public function __construct($defaults, \Logger $logger)
+        public function __construct($defaults, Logger $logger)
         {
             $this->setDefaults($defaults);
             $this->logger = $logger;
@@ -50,7 +50,7 @@ namespace MetaLiquid{
             foreach ($pageUrls as $url)
                 {
 
-                $dom = new \DOMDocument();
+                $dom = new DOMDocument();
                 $dom->loadHTMLFile( $url );
                 /**
                  * Any rows parsed will be added to the $rows array (passed byref)
@@ -93,9 +93,9 @@ namespace MetaLiquid{
          * @param int $rowCount Number of rows collected
          * @return int Either a tally of the rows parsed, or -1 if hit max rows
          */
-        private function parseXmlRows( \DOMDocument $dom, $instructions, &$rows, $rowCount )
+        private function parseXmlRows( DOMDocument $dom, $instructions, &$rows, $rowCount )
         {
-            $xpath = new \DOMXPath($dom);
+            $xpath = new DOMXPath($dom);
             $startAtRow = isset($instructions['startAtRow']) ? $instructions['startAtRow'] : $this->defaults['startAtRow'];
             $rowKey = isset($instructions['rowKey']) ? $instructions['rowKey'] : $this->defaults['rowKey'];
             $rowsTraversed = 0;
@@ -197,4 +197,3 @@ namespace MetaLiquid{
         }
 
     }
-}

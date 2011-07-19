@@ -30,7 +30,7 @@ $templates = JSON::load($config['instructions']['path'] . $config['instructions'
  * Instantiate the logger, will help us out
  */
 $logger = new Logger($config['log-file']);
-
+$logger->Write("Hello - " . date("Y-m-d H:i:s") );
 /**
  * Enumerate the instruction set json files
  */
@@ -41,7 +41,7 @@ array_shift($files);
 /**
  * Instantiate the crawler object
  */
-$crawler = new MetaLiquid\Crawler($config['defaults'], $logger);
+$crawler = new Crawler($config['defaults'], $logger);
 
 foreach ($files as $file)
 {
